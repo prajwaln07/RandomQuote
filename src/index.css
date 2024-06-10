@@ -1,0 +1,109 @@
+
+/* src/styles.css */
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  min-height: 100vh;
+  background-color: #fff;
+}
+.navbar{
+  display: flex;
+  /* background-color: #d44c4c; */
+  align-items: center;
+  justify-content: space-around;
+  font-weight: 600;
+  font-size: xx-large;
+  height: 10vh;
+}
+.tag-line{
+/* width: 40%; */
+text-align: center;
+}
+.second{
+  display: flex;
+  gap: 10px;
+align-items: center;
+}
+.symbol{
+  display: flex;
+  text-align: start;
+  height: 50px;
+  width: 50px;
+}
+.home{
+  height: 90vh;
+  width: 100%;
+  /* background-color: rgb(144, 247, 19); */
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px; */
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  padding: 5vw;
+  border-radius: 50%;
+  height: 40vh;
+  width: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: azure;
+}
+.btn{
+  width: 10vw;
+  border-radius: 2vw 4vw;
+  padding: 2vw;
+  background-color: beige;
+  font-weight: 500;
+  font-size: 3vh;
+box-shadow: 1px 1px;
+}
+.reload{
+  font-size: xx-large;
+}
+.buttons{
+  gap: 5vw;
+  display: flex;
+}
+.quote{
+  font-size: 3vh;
+  text-align: center;
+  padding: 2vh;
+  background-color: aquamarine;
+  border-radius: 50px;
+}
+.quote-container{
+  margin-top: 5vh;
+  gap: 3vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrong{
+  cursor: pointer;
+  text-align: end;
+  height: 2vw;
+}
+.quote-sub-container{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.empty{
+  text-align: center;
+  font-size: 18vh;
+}
