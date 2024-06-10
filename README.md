@@ -1,1 +1,1 @@
-**Live** : quotastic.netlify.app
+**[Live]([url](https://quotastic.netlify.app/))**
